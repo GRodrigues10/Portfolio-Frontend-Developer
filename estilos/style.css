@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
+
+
+
+:root {
+    --cor-de-fundo: #0c1022;
+    --cor01: #00eeff;
+    --cor02: #999999;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: 'Poppins', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    overflow-x: hidden;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    
+}
+
+.portifolio {
+    font-size: 1.58rem;
+    pointer-events: none;
+    opacity: 0; /* Começa com opacidade zero */
+    animation: slideTop 1s forwards; /* Aplica a animação slideTop */
+    font-weight: 600;
+}
+
+
+
+header a {
+    color: white;
+    font-size: 1.1rem;
+}
+
+.bar {
+    margin-inline: 10px;
+    width: 66%;
+}
+
+.bar a {
+    margin-inline: 20px;
+    margin-right: 2%;
+    transition: 1s ease;
+    opacity: 0; 
+    animation: slideTop .5s forwards; /* Aplica a animação slideTop */
+    animation-delay: .2s;
+    
+}
+
+.bar a:hover{
+    color: #3cf;
+   
+}
+
+section {
+    max-width: 100%;
+    height: 100vh;
+    display: flex;
+    margin-left: 10%;
+    align-items: center;
+    justify-content: space-between;
+    
+   
+}
+
+.conteúdo h1 {
+    font-size: 50px;
+    font-weight: 700;
+    padding: 0;
+    opacity: 0; /* Começa com opacidade zero */
+    animation: slideRight 0.5s ease forwards; /* Aplica a animação slideRight */
+    animation-delay: 0.7s; /* Adiciona o delay para a animação */
+}
+
+
+
+.conteúdo h2 {
+    font-size: 30px;
+    color: var(--cor01);
+    margin-left: 5px;
+    position: relative;
+    bottom: 10px;
+    margin-bottom: 10px;
+    opacity: 0;
+    animation: slideLeft 0.5s ease forwards; /* Aplica a animação slideRight */
+    animation-delay: 0.9s; /* Adiciona o delay para a animação */
+}
+
+
+.conteúdo p {
+    font-size: 16px;
+    text-align: justify;
+    margin-left: 5px;
+    margin-bottom: 50px;
+    opacity: 0;
+    animation: slideLeft 0.5s ease forwards; /* Aplica a animação slideRight */
+    animation-delay: 0.9s; /* Adiciona o delay para a animação */
+}
+
+
+.conteúdo-dentro{
+    max-width: 600px;
+    
+    
+}
+
+.btn{
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 48px;
+    
+    border-radius: 40px;
+    font-size: 19px;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-decoration: none;
+    z-index: 1;
+    opacity: 0;
+    animation: slideBottom 0.9s ease forwards; /* Aplica a animação slideRight */
+    animation-delay: 1.2s; /* Adiciona o delay para a animação */
+}
+ 
+
+ .btn::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    inset: 0;
+    left: 0;
+    background: linear-gradient(45deg, #f06, #3cf, #f06);
+    background-color: 200%;
+    background-position: 0 0 ;
+    z-index: -1;
+    border-radius: 40px;
+    filter: blur(5px);
+    transition: .5s ease;
+}
+
+.btn:hover::before{
+    background-position: 100% 0;
+}
+
+
+.btn::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    inset: 0;
+    left: 0;
+    background: linear-gradient(45deg, #f06, #3cf, #f06);
+    background-position: 0 0 ;
+    background-size: 200%;
+    z-index: -1;
+    border-radius: 40px;
+    transition: .5s ease;
+}
+
+.btn:hover::after{
+   background-position: 100% 0;
+}
+
+.icons a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid var(--cor01);
+    border-radius: 50%;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    margin: 20px 0;
+    transition: 0.3s ease;
+    margin-right: 20px;
+    position: relative;
+    bottom: 20px;
+   
+
+}
+
+
+
+.icons a:hover{
+    background-color: var(--cor01);
+    color: black;
+    transform: scale(1.2);
+    border: 1px solid black;
+    text-decoration: dashed;
+    
+}
+
+.icons a:nth-child(1){
+    opacity: 0;
+    animation: slideRight 0.9s ease forwards; /* Aplica a animação slideRight */
+    animation-delay: 1s; /* Adiciona o delay para a animação */
+}
+.icons a:nth-child(2){
+    opacity: 0;
+    animation: slideRight 0.9s ease forwards; /* Aplica a animação slideRight */
+    animation-delay: 1.2s; /* Adiciona o delay para a animação */
+}
+.icons a:nth-child(3){
+    opacity: 0;
+    animation: slideRight 0.9s ease forwards; /* Aplica a animação slideRight */
+    animation-delay: 1.4s; /* Adiciona o delay para a animação */
+}
+
+.img{
+    width: 300px;
+    height: 300px;
+    margin-right: 50px;
+    position: relative;
+    
+   
+   
+    
+    
+}
+
+.img .círculo{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /* background-color: yellow; */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    animation: slideLeft 0.9s ease forwards, floatImage 4s ease-in-out infinite; /* Aplica a animação slideRight */
+    animation-delay: 1.7s, 3.1s; /* Adiciona o delay para a animação */
+    
+}
+
+.img .círculo::after{
+    content: '';
+    position: absolute;
+    width: 270px;
+    height: 280px;
+    background-color: var(--cor-de-fundo);
+    border-radius: 50%;
+    border: 8px solid;
+   color: var(--cor01);
+
+}
+
+.img .círculo .imagem{
+    position: relative;
+    width: 270px;
+    height: 320px;
+    overflow: hidden;
+    border-radius: 50%;
+    z-index: 1;
+    left: 1px;
+    bottom: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.imagem img{
+   
+    max-width: 265px;
+    background-size: cover;
+}
+
+
+/* KEYFRAMES */
+
+
+@keyframes slideTop {
+    0% {
+        opacity: 0; /* Começa com opacidade zero */
+        transform: translateY(-100px); /* Inicia deslocado para cima */
+    }
+    100% {
+        opacity: 1; /* Termina com opacidade total */
+        transform: translateY(0); /* Volta para a posição original */
+    }
+}
+
+@keyframes slideBottom {
+    0% {
+        opacity: 0; /* Começa com opacidade zero */
+        transform: translateY(100px); /* Inicia deslocado para cima */
+    }
+    100% {
+        opacity: 1; /* Termina com opacidade total */
+        transform: translateY(0); /* Volta para a posição original */
+    }
+}
+
+@keyframes slideRight {
+    0% {
+        opacity: 0; /* Começa com opacidade zero */
+        transform: translateX(-100px); /* Inicia deslocado para a esquerda */
+    }
+    100% {
+        opacity: 1; /* Termina com opacidade total */
+        transform: translateX(0); /* Volta para a posição original */
+    }
+}
+
+
+
+@keyframes slideLeft {
+    0% {
+        opacity: 0; /* Começa com opacidade zero */
+        transform: translateX(100px); /* Inicia deslocado para a esquerda */
+    }
+    100% {
+        opacity: 1; /* Termina com opacidade total */
+        transform: translateX(0); /* Volta para a posição original */
+    }
+}
+
+@keyframes floatImage{
+    0%{
+        transform:  translateY(0);
+    }
+    50%{
+        transform:  translateY(-24px);
+    }
+    100%{
+        transform:  translateY();
+    }
+}
+
+
+
+
+
+
+
