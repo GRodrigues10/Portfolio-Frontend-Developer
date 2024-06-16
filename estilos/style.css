@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
 
-
-
 :root {
     --cor-de-fundo: #0c1022;
     --cor01: #00eeff;
@@ -17,14 +15,15 @@
     text-decoration: none;
     box-sizing: border-box;
 }
+
 /* SECTION 1 */
 body {
     background-color: var(--cor-de-fundo);
     font-family: 'Poppins', sans-serif;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     color: white;
-    overflow-x: hidden;
+    overflow-x: hidden; /* Evita rolagem lateral */
 }
 
 header {
@@ -38,7 +37,6 @@ header {
     justify-content: space-between;
     align-items: center;
     z-index: 100;
-    
 }
 
 .portifolio {
@@ -48,8 +46,6 @@ header {
     animation: slideTop 1s forwards; /* Aplica a animação slideTop */
     font-weight: 600;
 }
-
-
 
 header a {
     color: white;
@@ -68,23 +64,19 @@ header a {
     opacity: 0; 
     animation: slideTop .5s forwards; /* Aplica a animação slideTop */
     animation-delay: .2s;
-    
 }
 
-.bar a:hover{
+.bar a:hover {
     color: #3cf;
-   
 }
 
 .part1 {
     max-width: 100%;
     height: 100vh;
     display: flex;
-    margin-left: 10%;
+    padding-left: 10%;
     align-items: center;
     justify-content: space-between;
-    
-   
 }
 
 .conteúdo h1 {
@@ -95,8 +87,6 @@ header a {
     animation: slideRight 0.5s ease forwards; /* Aplica a animação slideRight */
     animation-delay: 0.7s; /* Adiciona o delay para a animação */
 }
-
-
 
 .conteúdo h2 {
     font-size: 30px;
@@ -110,7 +100,6 @@ header a {
     animation-delay: 0.9s; /* Adiciona o delay para a animação */
 }
 
-
 .conteúdo p {
     font-size: 16px;
     text-align: justify;
@@ -121,21 +110,17 @@ header a {
     animation-delay: 0.9s; /* Adiciona o delay para a animação */
 }
 
-
-.conteúdo-dentro{
+.conteúdo-dentro {
     max-width: 600px;
-    
-    
 }
 
-.btn{
+.btn {
     position: relative;
     display: inline-flex;
     justify-content: center;
     align-items: center;
     width: 180px;
     height: 48px;
-    
     border-radius: 40px;
     font-size: 19px;
     color: white;
@@ -147,9 +132,8 @@ header a {
     animation: slideBottom 0.9s ease forwards; /* Aplica a animação slideRight */
     animation-delay: 1.2s; /* Adiciona o delay para a animação */
 }
- 
 
- .btn::before{
+.btn::before {
     content: '';
     position: absolute;
     top: 0;
@@ -157,37 +141,36 @@ header a {
     left: 0;
     background: linear-gradient(45deg, #f06, #3cf, #f06);
     background-color: 200%;
-    background-position: 0 0 ;
+    background-position: 0 0;
     z-index: -1;
     border-radius: 40px;
     filter: blur(5px);
     transition: .5s ease;
 }
 
-.btn:hover::before{
+.btn:hover::before {
     background-position: 100% 0;
 }
 
-
-.btn::after{
+.btn::after {
     content: '';
     position: absolute;
     top: 0;
     inset: 0;
     left: 0;
     background: linear-gradient(45deg, #f06, #3cf, #f06);
-    background-position: 0 0 ;
+    background-position: 0 0;
     background-size: 200%;
     z-index: -1;
     border-radius: 40px;
     transition: .5s ease;
 }
 
-.btn:hover::after{
-   background-position: 100% 0;
+.btn:hover::after {
+    background-position: 100% 0;
 }
 
-.icons a{
+.icons a {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -204,50 +187,42 @@ header a {
     margin-right: 20px;
     position: relative;
     bottom: 20px;
-   
-
 }
 
-
-
-.icons a:hover{
+.icons a:hover {
     background-color: var(--cor01);
     color: black;
     transform: scale(1.2);
     border: 1px solid black;
     text-decoration: dashed;
-    
 }
 
-.icons a:nth-child(1){
+.icons a:nth-child(1) {
     opacity: 0;
     animation: slideRight 0.9s ease forwards; /* Aplica a animação slideRight */
     animation-delay: 1s; /* Adiciona o delay para a animação */
 }
-.icons a:nth-child(2){
+
+.icons a:nth-child(2) {
     opacity: 0;
     animation: slideRight 0.9s ease forwards; /* Aplica a animação slideRight */
     animation-delay: 1.2s; /* Adiciona o delay para a animação */
 }
-.icons a:nth-child(3){
+
+.icons a:nth-child(3) {
     opacity: 0;
     animation: slideRight 0.9s ease forwards; /* Aplica a animação slideRight */
     animation-delay: 1.4s; /* Adiciona o delay para a animação */
 }
 
-.img{
+.img {
     width: 300px;
     height: 300px;
     margin-right: 50px;
     position: relative;
-    
-   
-   
-    
-    
 }
 
-.img .círculo{
+.img .círculo {
     position: relative;
     width: 100%;
     height: 100%;
@@ -260,10 +235,9 @@ header a {
     animation: slideLeft 0.9s ease forwards, floatImage 4s ease-in-out infinite; /* Aplica a animação slideRight */
     animation-delay: 1.7s, 3.1s; /* Adiciona o delay para a animação */
     left: 12px;
-    
 }
 
-.img .círculo::after{
+.img .círculo::after {
     content: '';
     position: absolute;
     width: 270px;
@@ -271,11 +245,10 @@ header a {
     background-color: var(--cor-de-fundo);
     border-radius: 50%;
     border: 8px solid;
-   color: var(--cor01);
-
+    color: var(--cor01);
 }
 
-.img .círculo .imagem{
+.img .círculo .imagem {
     position: relative;
     width: 270px;
     height: 320px;
@@ -287,19 +260,14 @@ header a {
     display: flex;
     align-items: center;
     justify-content: center;
-    
-
 }
 
-.imagem img{
-   
+.imagem img {
     max-width: 265px;
     background-size: cover;
 }
 
-
 /* KEYFRAMES */
-
 
 @keyframes slideTop {
     0% {
@@ -334,8 +302,6 @@ header a {
     }
 }
 
-
-
 @keyframes slideLeft {
     0% {
         opacity: 0; /* Começa com opacidade zero */
@@ -347,42 +313,38 @@ header a {
     }
 }
 
-@keyframes floatImage{
-    0%{
-        transform:  translateY(0);
+@keyframes floatImage {
+    0% {
+        transform: translateY(0);
     }
-    50%{
-        transform:  translateY(-24px);
+    50% {
+        transform: translateY(-24px);
     }
-    100%{
-        transform:  translateY();
+    100% {
+        transform: translateY();
     }
 }
 
-
 /* SECTION 2 */
 
-
-
-.conteúdo-dentro2{
+.conteúdo-dentro2 {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    
 }
 
-.conteúdo-dentro2 h1{
+.conteúdo-dentro2 h1 {
     margin-bottom: 20px;
     font-size: 45px;
 }
 
-.conteúdo-dentro2 h1 span{
+.conteúdo-dentro2 h1 span {
     color: var(--cor01);
 }
 
-.conteúdo-dentro2 p{
+.conteúdo-dentro2 p {
     margin-top: 40px;
     width: 90%;
     font-size: 16px;
@@ -390,26 +352,24 @@ header a {
     text-align: justify;
 }
 
-.conteúdo-dentro2 p span{
+.conteúdo-dentro2 p span {
     color: var(--cor01);
 }
 
-.sub h2{
+.sub h2 {
     margin-left: 55px;
     margin-top: 50px;
     font-size: 35px;
 }
 
-.sub h3{
+.sub h3 {
     margin-top: 70px;
     font-size: 30px;
     color: var(--cor01);
     text-align: center;
-    
-    
 }
 
-.sub img{
+.sub img {
     position: relative;
     top: 50px;
     width: 500px;
@@ -420,49 +380,51 @@ header a {
     border-radius: 10px;
 }
 
-.sub .superior{
+.sub .superior {
     margin-top: 200px;
 }
-.sub .uni
-{
+
+.sub .uni {
     width: 400px;
     margin-bottom: 200px;
 }
-hr{
+
+hr {
     position: relative;
     top: 125px;
-    
     background-color: var(--cor01);
 }
 
 /* SECTION 3 */
 
-.conteudo-dentro3{
+.conteudo-dentro3 {
     width: 100%;
     height: 750px;
     background-color: #131831;
-   
 }
 
-.conteudo-dentro3 h1{
+.conteudo-dentro3 h1 {
     font-size: 40px;
     position: relative;
     top: 80px;
-    
     text-align: center;
 
+   
 }
-.conteudo-dentro3 h2{
+
+.conteudo-dentro3 h2 {
     color: var(--cor01);
     font-size: 30px;
     margin-left: 50px;
-}
-.conteudo-dentro3 .linguagens{
-    font-size: 30px;
-    margin-top: 140px;
     
     
 
+}
+
+.conteudo-dentro3 .linguagens {
+    font-size: 30px;
+    margin-top: 160px;
+    
 }
 
 .conteudo-dentro3 ul {
@@ -473,18 +435,127 @@ hr{
     margin-bottom: 40px;
 }
 
+.part4{
+    width: 100%;
+    height: 900px;
+    
+    
+}
+
+.part4 h1 {
+    margin-bottom: 20px;
+    font-size: 40px;
+    margin-top: 70px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.conteúdo-dentro4 {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 300px 300px 300px;
+    justify-content: center;
+    gap: 40px 50px;
+}
+
+.conteúdo-dentro4 div {
+    /* width: 250px;
+    height: 250px; */
+  
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px solid var(--cor01);
+    transition: 0.3s ease;
+    cursor: pointer;
+    
+    
+    
+}
+
+.conteúdo-dentro4  .p1{
+   
+    background-image: url(../imagens/anakin-skywalker-as-darth-vader.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.conteúdo-dentro4  .p2{
+    
+    background-image: url(../imagens/anakin-skywalker-as-darth-vader.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.conteúdo-dentro4  .p3{
+    
+    background-image: url(../imagens/anakin-skywalker-as-darth-vader.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.conteúdo-dentro4 .p4{
+    
+    background-image: url(../imagens/anakin-skywalker-as-darth-vader.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.conteúdo-dentro4  .p5{
+   
+    background-image: url(../imagens/anakin-skywalker-as-darth-vader.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.conteúdo-dentro4  .p6{
+    
+    background-image: url(../imagens/anakin-skywalker-as-darth-vader.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.conteúdo-dentro4  .p1:hover{
+    transform: scale(1.05);
+}
+
+.conteúdo-dentro4  .p2:hover{
+    transform: scale(1.05);
+}
+
+.conteúdo-dentro4  .p3:hover{
+    transform: scale(1.05);
+}
+
+.conteúdo-dentro4  .p4:hover{
+    transform: scale(1.05);
+}
+
+.conteúdo-dentro4  .p4:hover{
+    transform: scale(1.05);
+}
+
+.conteúdo-dentro4  .p5:hover{
+    transform: scale(1.05);
+}
+
+.conteúdo-dentro4  .p6:hover{
+    transform: scale(1.05);
+}
 
 
 
 
-
-
-
-
-
-
-
-
+.part5{
+    width: 100%;
+    height: 800px;
+    background-color: #131831;
+}
+.part5 h1{
+    text-align: center;
+    font-size: 40px;
+    position: relative;
+    top: 80px;
+}
 
 
 
@@ -495,26 +566,15 @@ footer {
     font-size: 1.4rem;
     padding: 20px;
     font-weight: 500;
+    background-color: #0c1022 /* MUDAR*/
 }
 
 footer a {
     color: var(--cor01);
     text-decoration: none;
-    transition: 0.8s ease; 
+    transition: 0.8s ease;
 }
 
 footer a:hover {
     color: rgba(51, 204, 255, 0.671);
 }
-
-
-
-
-
-
-
-
-
-
-
-
