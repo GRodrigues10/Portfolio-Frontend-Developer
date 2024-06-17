@@ -641,7 +641,9 @@ textarea{
     color: #00eeff;
 }
 
-
+.loading {
+    display: none;
+}
 
 
 
