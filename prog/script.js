@@ -1,4 +1,4 @@
-document.getElementById('meuForm').addEventListener('submit', function(event) {
+document.getElementById('meuForm').addEventListener('submit', (event) => {
     var submitBtn = document.getElementById('submitBtn');
     var loadingIndicator = document.getElementById('loading');
     
