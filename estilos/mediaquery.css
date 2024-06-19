@@ -123,6 +123,9 @@
 
     .sub h2 {
         font-size: 24px;
+        position: relative;
+        right: 30px;
+        
     }
 
     .sub h3 {
@@ -140,15 +143,38 @@
         width: 100%;
     }
 
-    .conteudo-dentro3 h1 {
-        font-size: 36px;
-    }
+    
 
     .conteudo-dentro3 ul {
         margin-left: 0;
+        
     }
 
-    .part4 {
+    .part3 .conteudo-dentro3 h1{
+        font-size: 30px;
+        
+        
+    }
+
+    .part3 .conteudo-dentro3 h2{
+        font-size: 20px;
+        margin-left: 20px; 
+        position: relative;
+        right: 20px; 
+        width: 100%; 
+        
+    }
+
+    .part3 .conteudo-dentro3 ul{
+        position: relative;
+        left: 50px;
+        font-size: 16px;
+        width: 50%;
+    }
+
+   
+
+    /* .part4 {
         height: auto;
         padding: 10% 5%;
         width: 100%;
@@ -157,14 +183,45 @@
     .part4 h1 {
         font-size: 36px;
         margin-bottom: 80px;
-    }
+    } */
 
-    .conteúdo-dentro4 {
+    /* .conteúdo-dentro4 {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
         gap: 20px;
         width: 100%;
+    } */
+    .conteúdo-dentro4 div{
+        width: 150px;
+        height: 150px;
+        
+        margin: auto;
     }
+
+    .conteúdo-dentro4{
+        width: 100%;
+        height: 650px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, auto);
+        gap: 0 0;
+        
+        
+        justify-content: center;
+        
+
+    }
+
+    .part4 h1{
+        font-size: 35px;
+    }
+
+
+
+
+
+
+
 
     .part5 {
         height: auto;
@@ -197,6 +254,11 @@
         min-height: 100vh;
         overflow-x: hidden; /* Evita rolagem horizontal */
         width: 100%;
+    }
+
+    footer{
+        font-size: 15px;
+        background-color: red;
     }
 }
 

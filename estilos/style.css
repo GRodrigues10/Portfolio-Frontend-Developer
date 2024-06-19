@@ -52,6 +52,16 @@ header {
     font-weight: 600;
 }
 
+
+header.solid {
+    background-color: black; /* Cor de fundo quando rolar */
+}
+
+header.transparent{
+    background-color: transparent;
+}
+
+
 header a {
     color: white;
     font-size: 1.1rem;
@@ -74,6 +84,10 @@ header a {
 .bar a:hover {
     color: #3cf;
 }
+
+
+
+
 
 .menu-hamburguer-container {
     position: relative;

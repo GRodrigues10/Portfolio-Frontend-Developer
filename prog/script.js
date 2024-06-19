@@ -25,3 +25,15 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 });
 
+
+document.addEventListener('DOMContentLoaded', () => {
+    const menu = document.getElementById('menu');
+
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 50) {
+            menu.classList.add('solid');
+        } else {
+            menu.classList.remove('solid');
+        }
+    });
+});
