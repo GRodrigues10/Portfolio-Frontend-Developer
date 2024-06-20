@@ -54,11 +54,13 @@ header {
 
 
 header.solid {
-    background-color: black; /* Cor de fundo quando rolar */
+    background-color: #182252; /* Cor de fundo quando rolar */
+    transition: 0.3s ease;
 }
 
 header.transparent{
     background-color: transparent;
+    transition: 0.3s ease;
 }
 
 
@@ -666,6 +668,7 @@ hr {
     border: 2px solid var(--cor01);
     font-weight: 500;
     font-size: 1rem;
+    margin: 5px 0px;
     
    
     

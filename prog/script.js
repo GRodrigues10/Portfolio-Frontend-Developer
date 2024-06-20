@@ -37,3 +37,17 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+    const menu = document.getElementById('menu');
+
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 100) {
+            menu.classList.add('solid');
+            menu.classList.remove('transparent');
+        } else {
+            menu.classList.add('transparent');
+            menu.classList.remove('solid');
+        }
+    });
+});

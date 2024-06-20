@@ -4,6 +4,142 @@
     box-sizing: border-box;
 }
 
+/* Media query para telas pequenas (max-width: 480px) */
+@media screen and (max-width: 480px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .container {
+        position: relative;
+        padding-top: 80px;
+        overflow-x: hidden; /* Evita rolagem horizontal */
+        width: 100%;
+    }
+
+    .conteúdo {
+        position: relative;
+        padding: 10% 5%;
+        width: 100%;
+        text-align: center;
+        
+    }
+
+    
+
+    .conteúdo h1 {
+        font-size: 30px;
+
+
+    }
+
+    .conteúdo-dentro2 h1{
+        font-size: 35px;
+        margin-top: 170px;
+    }
+
+    .conteúdo h2 {
+        font-size: 25px;
+    }
+
+    .conteúdo p {
+        font-size: 15px;
+    }
+
+    .icons a {
+        font-size: 14px;
+    }
+
+    .img {
+        order: 1;
+        margin: 0 auto;
+        max-width: 100%;
+    }
+
+    .icons {
+        order: 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 0;
+        width: 100%;
+    }
+
+
+
+
+    .img-sobreposta {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 50%;
+        height: auto;
+        z-index: 1;
+        opacity: 0.5;
+    }
+
+    .btn{
+        width: 160px;
+        font-size: 16px;
+        
+    }
+
+    .part2{
+        
+        position: relative;
+        top: 100px;
+    }
+
+   /* Formulário */
+   .formulario {
+    display: grid;
+    gap: 10px; /* Espaçamento entre as células do grid */
+    padding: 20px; /* Espaçamento interno do formulário */
+}
+
+
+
+/* Inputs */
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario input[type="number"],
+.formulario input[type="date"],
+.formulario textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box; /* Garante que o padding não aumente o tamanho total */
+    font-size: 14px; /* Tamanho da fonte */
+}
+
+/* Botão */
+.formulario button {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 16px; /* Ajuste o tamanho da fonte do botão conforme necessário */
+}
+}
+
+@media screen and (max-width: 387px) {
+    .conteúdo-dentro2 h1{
+        font-size: 35px;
+        
+        
+    }
+}
+
+
+@media screen and (max-width: 300px) {
+    .conteúdo-dentro2 h1{
+        font-size: 35px;
+        
+        
+    }
+}
+
+
 /* Media query para telas menores (max-width: 768px) */
 @media only screen and (max-width: 768px) {
     * {
@@ -22,6 +158,16 @@
         align-items: center;
         padding: 10px 5%;
         width: 100%;
+    }
+
+    header.solid {
+        background-color:transparent; /* Cor de fundo quando rolar */
+        transition: 0.3s ease;
+    }
+    
+    header.transparent{
+        background-color: transparent;
+        transition: 0.3s ease;
     }
 
     .portifolio {
@@ -50,21 +196,25 @@
     }
 
     .conteúdo {
-        text-align: center;
+        position: relative;
+        padding: 10% 5%;
         width: 100%;
+
+    }
+    .conteúdo h1, p{
+       
     }
 
     .conteúdo h1 {
-        font-size: 40px;
+        font-size: 35px;
     }
 
     .conteúdo h2 {
-        font-size: 24px;
+        font-size: 25px;
     }
 
     .conteúdo p {
-        font-size: 14px;
-        margin-bottom: 30px;
+        font-size: 15px;
     }
 
     .img {
@@ -84,13 +234,19 @@
 
     .icons a {
         font-size: 16px;
-        margin: 0 10px;
+        margin: 40 10px;
     }
 
     .img .círculo {
         left: 0;
     }
+    .img .círculo::after{
+        
+    }
 
+   
+ 
+  
     .conteúdo-dentro2 {
         padding: 10% 5%;
         position: relative;
@@ -101,6 +257,8 @@
         font-size: 36px;
         position: relative;
         z-index: 2;
+        margin-top: 280px;
+        
     }
 
     .conteúdo-dentro2 p {
@@ -264,15 +422,6 @@
         margin-top: 100px;
     }
 
-    
-
-    
-
-
-    
-
-
-    
 
     
 
@@ -284,97 +433,11 @@
 }
 
 
-/* Media query para telas pequenas (max-width: 480px) */
-@media screen and (max-width: 480px) {
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
+
+@media screen and (max-width:992px) {
+    header .bar{
+        display: none;
     }
-    .container {
-        position: relative;
-        padding-top: 80px;
-        overflow-x: hidden; /* Evita rolagem horizontal */
-        width: 100%;
-    }
-
-    .conteúdo {
-        position: relative;
-        padding: 10% 5%;
-        width: 100%;
-    }
-
-    .conteúdo h1 {
-        font-size: 25px;
-    }
-
-    .conteúdo h2 {
-        font-size: 20px;
-    }
-
-    .conteúdo p {
-        font-size: 12px;
-    }
-
-    .icons a {
-        font-size: 14px;
-    }
-
-    .img {
-        order: 1;
-        margin: 0 auto;
-        max-width: 100%;
-    }
-
-    .icons {
-        order: 2;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 20px 0;
-        width: 100%;
-    }
-
-
-
-
-    .img-sobreposta {
-        position: absolute;
-        top: 0;
-        left: 50%;
-        transform: translateX(-50%);
-        width: 50%;
-        height: auto;
-        z-index: 1;
-        opacity: 0.5;
-    }
-
-    
-
-   /* Formulário */
-   .formulario {
-    display: grid;
-    gap: 10px; /* Espaçamento entre as células do grid */
-    padding: 20px; /* Espaçamento interno do formulário */
 }
 
-/* Inputs */
-.formulario input[type="text"],
-.formulario input[type="email"],
-.formulario input[type="number"],
-.formulario input[type="date"],
-.formulario textarea {
-    width: 100%;
-    padding: 10px;
-    box-sizing: border-box; /* Garante que o padding não aumente o tamanho total */
-    font-size: 14px; /* Tamanho da fonte */
-}
 
-/* Botão */
-.formulario button {
-    width: 100%;
-    padding: 10px;
-    box-sizing: border-box;
-    font-size: 16px; /* Ajuste o tamanho da fonte do botão conforme necessário */
-}
-}
