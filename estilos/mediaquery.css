@@ -183,6 +183,7 @@
 
     .menu-icon {
         display: block;
+       
     }
 
     .menu-hamburguer {
@@ -447,7 +448,12 @@
 
         
     }
+
    
+
+    
+
+
     .menu-icon {
         display: block;
         font-size: 30px;
@@ -539,10 +545,12 @@
 
     .menu-icon {
         display: block;
+       
     }
 
     .menu-hamburguer {
         display: none;
+        
     }
 
     .part1 {
@@ -783,6 +791,8 @@
         
         
     }
+
+    
 
 
     
