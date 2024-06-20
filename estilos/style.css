@@ -54,8 +54,8 @@ header {
 
 
 header.solid {
-    background-color: #182252; /* Cor de fundo quando rolar */
-    transition: 0.3s ease;
+    background-color: #1a265e; /* Cor de fundo quando rolar */
+    
 }
 
 header.transparent{
