@@ -55,6 +55,7 @@ header {
 
 header.solid {
     background-color: #1a265e; /* Cor de fundo quando rolar */
+    transition: 0.3s ease;
     
 }
 
