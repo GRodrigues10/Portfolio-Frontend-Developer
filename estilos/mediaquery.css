@@ -237,7 +237,7 @@
 
     .menu-icon {
         display: block;
-        font-size: 30px;
+        font-size: 20px;
         cursor: pointer;
         padding: 10px;
         position: relative;
@@ -358,7 +358,7 @@
         font-size: 36px;
         position: relative;
         z-index: 2;
-        margin-top: 280px;
+        /* margin-top: 280px; */
         
     }
 
@@ -575,12 +575,11 @@
     .menu-hamburguer-container {
         position: relative;
        display: block;
+       
 
-
-        
     }
 
-   
+    
 
     
 
@@ -625,6 +624,7 @@
         font-weight: 700;
         transition: 0.3s ease;
          /* Adiciona margem à esquerda */
+        
         
     }
     
@@ -755,7 +755,7 @@
         font-size: 36px;
         position: relative;
         z-index: 2;
-        margin-top: 280px;
+         margin-top: 280px; 
         
     }
 
