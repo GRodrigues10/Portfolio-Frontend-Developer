@@ -26,6 +26,17 @@
         
     }
 
+    header.solid a {
+        background-color:transparent; /* Cor de fundo quando rolar */
+        transition: 0.3s ease;
+        
+    }
+    
+    header.transparent a{
+        background-color: transparent;
+        transition: 0.3s ease;
+    }
+
     
 
     .conteúdo h1 {
@@ -162,12 +173,12 @@
         width: 100%;
     }
 
-    header.solid {
+    header.solid a {
         background-color:transparent; /* Cor de fundo quando rolar */
         transition: 0.3s ease;
     }
     
-    header.transparent{
+    header.transparent a{
         background-color: transparent;
         transition: 0.3s ease;
     }
@@ -524,12 +535,13 @@
         width: 100%;
     }
 
-    header.solid {
+    header.solid a {
         background-color:transparent; /* Cor de fundo quando rolar */
         transition: 0.3s ease;
+        
     }
     
-    header.transparent{
+    header.transparent a{
         background-color: transparent;
         transition: 0.3s ease;
     }
