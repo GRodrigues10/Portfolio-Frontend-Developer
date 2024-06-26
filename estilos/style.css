@@ -549,6 +549,8 @@ hr {
     gap: 40px 50px;
 }
 
+
+
 .conteúdo-dentro4 div {
     /* width: 250px;
     height: 250px; */
@@ -562,43 +564,47 @@ hr {
     
     
 }
+.conteúdo-dentro4 div {
+    width: 100%;
+    height: 100%;
+}
 
 .conteúdo-dentro4  .p1{
    
-    background-image: url(../imagens/anakin-skywalker-as-darth-vader.jpg);
+    background-image: url(../imagens/starwars-projeto.avif);
     background-size: cover;
     background-position: center;
 }
 .conteúdo-dentro4  .p2{
     
-    background-image: url(../imagens/anakin-skywalker-as-darth-vader.jpg);
+    background-image: url(../imagens/projeto-netflix.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .conteúdo-dentro4  .p3{
     
-    background-image: url(../imagens/anakin-skywalker-as-darth-vader.jpg);
+    background-image: url(../imagens/pong3-game.png);
     background-size: cover;
     background-position: center;
 }
 
 .conteúdo-dentro4 .p4{
     
-    background-image: url(../imagens/anakin-skywalker-as-darth-vader.jpg);
+    background-image: url(../imagens/snake-game.png);
     background-size: cover;
     background-position: center;
 }
 
 .conteúdo-dentro4  .p5{
    
-    background-image: url(../imagens/anakin-skywalker-as-darth-vader.jpg);
+    background-image: url(../imagens/clima-projeto.jpg);
     background-size: cover;
     background-position: center;
 }
 .conteúdo-dentro4  .p6{
     
-    background-image: url(../imagens/anakin-skywalker-as-darth-vader.jpg);
+    background-image: url(../imagens/endereço-projeto.jpg);
     background-size: cover;
     background-position: center;
 }
