@@ -40,7 +40,7 @@
     
 
     
-    
+
     .conteúdo h1 {
         font-size: 30px;
 
@@ -703,9 +703,7 @@
         width: 100%;
 
     }
-    .conteúdo h1, p{
-       
-    }
+   
 
     .conteúdo h1 {
         font-size: 30px;
@@ -741,18 +739,18 @@
 
     .img .círculo {
         left: 0;
-    }
-    .img .círculo::after{
-        
+           
     }
 
    
- 
+   
   
     .conteúdo-dentro2 {
         padding: 10% 5%;
         position: relative;
         width: 100%;
+        
+        
     }
 
     .conteúdo-dentro2 h1 {
