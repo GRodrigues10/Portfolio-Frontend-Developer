@@ -412,12 +412,14 @@ header a {
 
 /* SECTION 2 */
 
+
 .conteúdo-dentro2 {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    
 }
 
 .conteúdo-dentro2 h1 {
