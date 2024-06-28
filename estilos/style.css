@@ -198,6 +198,12 @@ header a {
     max-width: 600px;
 }
 
+
+.conteúdo-dentro span{
+    color: var(--cor01);
+    font-weight:600;
+}
+
 .btn {
     position: relative;
     display: inline-flex;
@@ -516,12 +522,14 @@ hr {
     
 }
 
+
+
 .conteudo-dentro3 ul {
     margin-left: 100px;
     font-size: 20px;
     font-weight: 600;
     margin-top: 10px;
-    margin-bottom: 40px;
+    margin-bottom: 40px;   
 }
 
 .part4{
