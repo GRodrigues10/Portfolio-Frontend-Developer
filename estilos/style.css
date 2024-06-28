@@ -580,48 +580,421 @@ hr {
     height: 100%;
 }
 
-.conteúdo-dentro4  .p1{
-   
+.conteúdo-dentro4 .p1 {
+    position: relative;
+    overflow: hidden; /* Garante que o desfoque não se espalhe para fora do elemento */
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-image: url(../imagens/starwars-projeto.avif);
     background-size: cover;
     background-position: center;
-}
-.conteúdo-dentro4  .p2{
     
+   
+}
+
+.conteúdo-dentro4 .p1::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(transparent, #1d8c941f, #00eeff4f, #01e7f76b,  #00eeffcc);
+    /* background-image: url(../imagens/starwars-projeto.avif); */
+    background-size: cover;
+    background-position: center;
+    filter: blur(3px); /* Ajuste o valor de blur conforme desejado */
+    opacity: 0;
+    transition: opacity 0.5s ease; /* Transição suave da opacidade */
+    z-index: -1; /* Coloca o pseudo-elemento atrás do conteúdo */
+    
+    
+}
+
+.conteúdo-dentro4 .p1:hover::before {
+    opacity: 1;
+    
+    
+}
+
+.conteúdo-dentro4 .p1 p {
+    position: relative; /* Para manter o texto sobre o plano de fundo desfocado */
+    text-align: justify;
+    font-family: 'Poppins';
+    font-weight: bold;
+    color: white; /* Cor do texto */
+    opacity: 0;
+    transition: opacity 0.3s ease; /* Transição suave da opacidade */
+    width: 80%;
+  font-size: 16px;
+    position: absolute;
+    text-shadow: 2px 2px 3px black;
+    
+}
+
+.conteúdo-dentro4 .p1 p span{
+    color: #00eeff;
+}
+
+.conteúdo-dentro4 .p1:hover p {
+    opacity: 1;
+}
+
+
+
+.conteúdo-dentro4 .p2 {
+    position: relative;
+    overflow: hidden; /* Garante que o desfoque não se espalhe para fora do elemento */
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-image: url(../imagens/projeto-netflix.jpg);
     background-size: cover;
     background-position: center;
-}
-
-.conteúdo-dentro4  .p3{
     
-    background-image: url(../imagens/pong3-game.png);
-    background-size: cover;
-    background-position: center;
-}
-
-.conteúdo-dentro4 .p4{
-    
-    background-image: url(../imagens/snake-game.png);
-    background-size: cover;
-    background-position: center;
-}
-
-.conteúdo-dentro4  .p5{
    
-    background-image: url(../imagens/clima-projeto.jpg);
+}
+
+.conteúdo-dentro4 .p2::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(transparent, #1d8c941f, #00eeff4f, #01e7f76b,  #00eeffcc);
+    /* background-image: url(../imagens/projeto-netflix.jpg); */
     background-size: cover;
     background-position: center;
-}
-.conteúdo-dentro4  .p6{
+    filter: blur(3px); /* Ajuste o valor de blur conforme desejado */
+    opacity: 0;
+    transition: opacity 0.5s ease; /* Transição suave da opacidade */
+    z-index: -1; /* Coloca o pseudo-elemento atrás do conteúdo */
     
-    background-image: url(../imagens/endereço-projeto.jpg);
+    
+}
+
+.conteúdo-dentro4 .p2:hover::before {
+    opacity: 1;
+    
+    
+}
+
+
+.conteúdo-dentro4 .p2 p {
+    position: relative; /* Para manter o texto sobre o plano de fundo desfocado */
+    text-align: justify;
+    font-family: 'Poppins';
+    font-weight: bold;
+    color: white; /* Cor do texto */
+    opacity: 0;
+    transition: opacity 0.3s ease; /* Transição suave da opacidade */
+    width: 80%;
+    font-size: 16px;
+    position: absolute;
+    text-shadow: 2px 2px 3px black;
+    letter-spacing: 0px;
+}
+
+.conteúdo-dentro4 .p2 p span{
+    color: #00eeff;
+}
+
+.conteúdo-dentro4 .p2:hover p {
+    opacity: 1;
+}
+
+
+
+
+
+
+.conteúdo-dentro4 .p3 {
+    position: relative;
+    overflow: hidden; /* Garante que o desfoque não se espalhe para fora do elemento */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../imagens/pong-game.png);
     background-size: cover;
     background-position: center;
+    
+   
 }
+
+.conteúdo-dentro4 .p3::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(transparent, #1d8c941f, #00eeff4f, #01e7f76b,  #00eeffcc);
+    /* background-image: url(../imagens/pong-game.png); */
+    background-size: cover;
+    background-position: center;
+    filter: blur(3px); /* Ajuste o valor de blur conforme desejado */
+    opacity: 0;
+    transition: opacity 0.5s ease; /* Transição suave da opacidade */
+    z-index: -1; /* Coloca o pseudo-elemento atrás do conteúdo */
+    
+    
+}
+
+.conteúdo-dentro4 .p3:hover::before {
+    opacity: 1;
+    
+    
+}
+
+
+.conteúdo-dentro4 .p3 p {
+    position: relative; /* Para manter o texto sobre o plano de fundo desfocado */
+    text-align: justify;
+    font-family: 'Poppins';
+    font-weight: bold;
+    color: white; /* Cor do texto */
+    opacity: 0;
+    transition: opacity 0.3s ease; /* Transição suave da opacidade */
+    width: 80%;
+    font-size: 16px;
+    position: absolute;
+    text-shadow: 2px 2px 3px black;
+ 
+}
+
+.conteúdo-dentro4 .p3 p span{
+    color: #00eeff;
+}
+
+.conteúdo-dentro4 .p3:hover p {
+    opacity: 1;
+}
+
+
+
+
+
+
+
+.conteúdo-dentro4 .p4 {
+    position: relative;
+    overflow: hidden; /* Garante que o desfoque não se espalhe para fora do elemento */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../imagens/Snake\ game\ \(2\).png);
+    background-size: cover;
+    background-position: left
+    
+   
+}
+
+.conteúdo-dentro4 .p4::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(transparent, #1d8c941f, #00eeff4f, #01e7f76b,  #00eeffcc);
+    /* background-image: url(../imagens/snake-game.png); */
+    background-size: cover;
+    background-position: center;
+    filter: blur(3px); /* Ajuste o valor de blur conforme desejado */
+    opacity: 0;
+    transition: opacity 0.5s ease; /* Transição suave da opacidade */
+    z-index: -1; /* Coloca o pseudo-elemento atrás do conteúdo */
+    
+    
+}
+
+.conteúdo-dentro4 .p4:hover::before {
+    opacity: 1;
+    
+    
+}
+
+
+.conteúdo-dentro4 .p4 p {
+    position: relative; /* Para manter o texto sobre o plano de fundo desfocado */
+    text-align: justify;
+    font-family: 'Poppins';
+    font-weight: bold;
+    color: white; /* Cor do texto */
+    opacity: 0;
+    transition: opacity 0.3s ease; /* Transição suave da opacidade */
+    width: 80%;
+    font-size: 16px;
+    position: absolute;
+    text-shadow: 2px 2px 3px black;
+    letter-spacing: 0px;
+}
+
+.conteúdo-dentro4 .p4 p span{
+    color: #00eeff;
+}
+
+.conteúdo-dentro4 .p4:hover p {
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.conteúdo-dentro4 .p5 {
+    position: relative;
+    overflow: hidden; /* Garante que o desfoque não se espalhe para fora do elemento */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../imagens/clima2.jpeg);
+    background-size: cover;
+    background-position: center;
+    
+   
+}
+
+.conteúdo-dentro4 .p5::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+     background: linear-gradient(transparent, #1d8c941f, #00eeff4f, #01e7f76b,  #00eeffcc); 
+    /* background-image: url(../imagens/clima-projeto.jpg); */
+    background-size: cover;
+    background-position: center;
+    filter: blur(3px); /* Ajuste o valor de blur conforme desejado */
+    opacity: 0;
+    transition: opacity 0.5s ease; /* Transição suave da opacidade */
+    z-index: -1; /* Coloca o pseudo-elemento atrás do conteúdo */
+    
+    
+}
+
+.conteúdo-dentro4 .p5:hover::before {
+    opacity: 1;
+    
+    
+}
+
+
+.conteúdo-dentro4 .p5 p {
+    position: relative; /* Para manter o texto sobre o plano de fundo desfocado */
+    text-align: justify;
+    font-family: 'Poppins';
+    font-weight: bold;
+    color: white; /* Cor do texto */
+    opacity: 0;
+    transition: opacity 0.3s ease; /* Transição suave da opacidade */
+    width: 80%;
+    font-size: 16px;
+    position: absolute;
+    text-shadow: 2px 2px 3px black;
+    letter-spacing: 0px;
+}
+
+.conteúdo-dentro4 .p5 p span{
+    color: #00eeff;
+}
+
+.conteúdo-dentro4 .p5:hover p {
+    opacity: 1;
+}
+
+
+
+
+.conteúdo-dentro4 .p6 {
+    position: relative;
+    overflow: hidden; /* Garante que o desfoque não se espalhe para fora do elemento */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../imagens/endereço2.jpg);
+    background-size: cover;
+    background-position: center;
+    
+   
+}
+
+.conteúdo-dentro4 .p6::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+     background: linear-gradient(transparent, #1d8c941f, #00eeff4f, #01e7f76b,  #00eeffcc); */
+    /* background-image: url(../imagens/endereço-projeto.jpg); */
+    background-size: cover;
+    background-position: center;
+    filter: blur(3px); /* Ajuste o valor de blur conforme desejado */
+    opacity: 0;
+    transition: opacity 0.5s ease; /* Transição suave da opacidade */
+    z-index: -1; /* Coloca o pseudo-elemento atrás do conteúdo */
+    
+    
+}
+
+.conteúdo-dentro4 .p6:hover::before {
+    opacity: 1;
+    
+    
+}
+
+
+.conteúdo-dentro4 .p6 p {
+    position: relative; /* Para manter o texto sobre o plano de fundo desfocado */
+    text-align: justify;
+    font-family: 'Poppins';
+    font-weight: bold;
+    color: white; /* Cor do texto */
+    opacity: 0;
+    transition: opacity 0.3s ease; /* Transição suave da opacidade */
+    width: 80%;
+    font-size: 16px;
+    position: absolute;
+    text-shadow: 2px 2px 3px black;
+    letter-spacing: 0px;
+}
+
+.conteúdo-dentro4 .p6 p span{
+    color: #00eeff;
+}
+
+.conteúdo-dentro4 .p6:hover p {
+    opacity: 1;
+}
+
+
+
+
+
+
 
 .conteúdo-dentro4  .p1:hover{
     transform: scale(1.05);
+   
+    
+    
 }
 
 .conteúdo-dentro4  .p2:hover{

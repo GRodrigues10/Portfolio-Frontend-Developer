@@ -63,3 +63,12 @@ function netflix() {
 function viaCep(){
     window.open('https://grodrigues10.github.io/Projeto-Localizador/', '_blank')
 }
+
+
+
+// Introduzindo Descrição nos Projetos:
+
+
+
+
+
