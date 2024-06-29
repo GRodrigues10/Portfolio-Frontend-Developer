@@ -64,6 +64,10 @@ function viaCep(){
     window.open('https://grodrigues10.github.io/Projeto-Localizador/', '_blank')
 }
 
+function jogoDaVelha(){
+    window.open('https://grodrigues10.github.io/Projeto-Jogo-Da-Velha/', 'blank')
+}
+
 
 
 // Introduzindo Descrição nos Projetos:
