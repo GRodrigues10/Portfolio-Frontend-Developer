@@ -219,7 +219,7 @@
 
 
 /* Media query para telas menores (max-width: 768px) */
-@media only screen and  (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     * {
         margin: 0;
         padding: 0;
@@ -493,28 +493,28 @@
 
 
     .conteúdo-dentro4 .p1 p{
-        font-size: 10px;
+        font-size: 8px;
     }
 
     .conteúdo-dentro4 .p2 p{
-        font-size: 10px;
+        font-size: 8px;
     }
 
     .conteúdo-dentro4 .p3 p{
-        font-size: 10px;
+        font-size: 8px;
     }
 
     .conteúdo-dentro4 .p4 p{
-        font-size: 10px;
+        font-size: 8px;
     }
 
     .conteúdo-dentro4 .p5 p{
-        font-size: 10px;
+        font-size: 8px;
     }
 
 
     .conteúdo-dentro4 .p6 p{
-        font-size: 10px;
+        font-size: 8px;
     }
 
 
