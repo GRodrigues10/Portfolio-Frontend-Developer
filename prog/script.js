@@ -68,6 +68,10 @@ function jogoDaVelha(){
     window.open('https://grodrigues10.github.io/Projeto-Jogo-Da-Velha/', 'blank')
 }
 
+function snake(){
+    window.open('https://grodrigues10.github.io/Projeto-Snake/', 'blank')
+}
+
 
 
 // Introduzindo Descrição nos Projetos:
