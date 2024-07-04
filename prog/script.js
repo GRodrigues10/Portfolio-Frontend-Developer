@@ -69,7 +69,11 @@ function jogoDaVelha(){
 }
 
 function snake(){
-    window.open('https://grodrigues10.github.io/Projeto-Snake/', 'blank')
+    window.open('https://grodrigues10.github.io/Projeto-Snake/', 'blank');
+}
+
+function clima(){
+    window.open('https://grodrigues10.github.io/Projeto-Clima/', 'blank');
 }
 
 
