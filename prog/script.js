@@ -61,7 +61,7 @@ function netflix() {
   }
 
 function viaCep(){
-    window.open('https://grodrigues10.github.io/Projeto-Localizador/', '_blank')
+    window.open('https://grodrigues10.github.io/Projeto-Busca-CEP-ReactJS/', '_blank')
 }
 
 function jogoDaVelha(){
