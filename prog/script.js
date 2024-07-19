@@ -68,8 +68,8 @@ function jogoDaVelha(){
     window.open('https://grodrigues10.github.io/Projeto-Jogo-Da-Velha/', 'blank')
 }
 
-function calc(){
-    window.open('https://grodrigues10.github.io/Projeto-Calculadora-ReactJS/', 'blank');
+function carrinho(){
+    window.open('https://grodrigues10.github.io/Projeto-Carrinho-de-Compras/', 'blank');
 }
 
 function clima(){
