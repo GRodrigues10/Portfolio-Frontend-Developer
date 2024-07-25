@@ -1063,6 +1063,8 @@ hr {
     font-weight: 500;
     font-size: 1rem;
     margin: 5px 0px;
+    outline: none;
+    
     
    
     
@@ -1088,6 +1090,7 @@ textarea{
     resize: none;
     color: white;
     font-weight: 500;
+    outline: none;
 }
 
 

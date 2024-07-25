@@ -181,13 +181,20 @@
 
         <form action="https://formsubmit.co/gabriel.rodrigues.costa2001@gmail.com" method="post" id="meuForm">
             <div class="formulário">
-                <div class="form  ulário1">
-                    <input type="text" name="nome_completo" id="nome" placeholder="Nome Completo" required> 
-                    <input type="number" name="celular" placeholder="Celular">
+                <div class="formulário1">
+                    <input type="text" name="nome_completo" id="nome" placeholder="Nome Completo" autocomplete="off"> 
+                    <input type="number" name="celular" placeholder="Celular" autocomplete="off">
                 </div>
                 <div class="formulário2">
-                    <input type="email" name="email" placeholder="E-mail" id="email" required> 
-                    <input type="text" name="assunto" id="assunto" placeholder="Assunto" required>
+                    <input type="email" name="email" placeholder="E-mail" id="email" autocomplete="off" required> 
+                    <input type="text" name="assunto" id="assunto" placeholder="Assunto" autocomplete="off" required>
+                    <input
+                    type="hidden"
+                    name="_next"
+                    value="https://yourdomain.co/thanks.html"
+                  />
+                  <input type="hidden" name="_captcha" value="false" />
+
                 </div>
                 <textarea name="mensagem" id="mensagem" placeholder="Digite a mensagem..." required></textarea>
                 <button class="btn2" type="submit" id="submitBtn">Enviar Mensagem</button>
