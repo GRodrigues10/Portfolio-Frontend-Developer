@@ -76,8 +76,8 @@ function clima(){
     window.open('https://grodrigues10.github.io/Projeto-Clima/', 'blank');
 }
 
-function starwars(){
-    window.open('https://grodrigues10.github.io/Projeto-Star-Wars-Quiz/', 'blank')
+function cakeStore(){
+    window.open('https://grodrigues10.github.io/Projeto-Bootstrap/', 'blank')
 }
 
 
