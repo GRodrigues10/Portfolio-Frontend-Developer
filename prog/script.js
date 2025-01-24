@@ -73,7 +73,7 @@ function carrinho(){
 }
 
 function clima(){
-    window.open('https://grodrigues10.github.io/Projeto-Clima/', 'blank');
+    window.open('https://grodrigues10.github.io/Clima-App-ReactJS/', 'blank');
 }
 
 function cakeStore(){
