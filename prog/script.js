@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
- //PROJETOS
+
 
 function netflix() {
     window.open('https://grodrigues10.github.io/Filmes-React-JS/', '_blank'); 
@@ -82,7 +82,7 @@ function cakeStore(){
 
 
 
-// Introduzindo Descrição nos Projetos:
+
 
 
 
