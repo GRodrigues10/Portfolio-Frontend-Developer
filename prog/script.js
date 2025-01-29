@@ -15,12 +15,12 @@ document.addEventListener("DOMContentLoaded", () => {
             menuHamburguer.classList.remove("show");
             setTimeout(() => {
                 menuHamburguer.style.display = "none";
-            }, 300); // Aguarda a transição terminar antes de ocultar o menu
+            }, 300); 
         } else {
             menuHamburguer.style.display = "flex";
             setTimeout(() => {
                 menuHamburguer.classList.add("show");
-            }, 10); // Adiciona a classe após definir display flex
+            }, 10); 
         }
     });
 });
