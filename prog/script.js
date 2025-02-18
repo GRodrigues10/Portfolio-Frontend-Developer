@@ -64,7 +64,7 @@ function viaCep(){
     window.open('https://grodrigues10.github.io/Projeto-Busca-CEP-ReactJS/', '_blank')
 }
 
-function jogoDaVelha(){
+function gym(){
     window.open('https://grodrigues10.github.io/Gym-Landing-Page/', 'blank')
 }
 
