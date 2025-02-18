@@ -65,7 +65,7 @@ function viaCep(){
 }
 
 function jogoDaVelha(){
-    window.open('https://grodrigues10.github.io/Projeto-Jogo-Da-Velha/', 'blank')
+    window.open('https://grodrigues10.github.io/Gym-Landing-Page/', 'blank')
 }
 
 function carrinho(){
