@@ -58,26 +58,26 @@ document.addEventListener('DOMContentLoaded', () => {
 
 function netflix() {
     window.open('https://grodrigues10.github.io/Filmes-React-JS/', '_blank'); 
-  }
+}
 
 function viaCep(){
-    window.open('https://grodrigues10.github.io/Projeto-Busca-CEP-ReactJS/', '_blank')
+    window.open('https://grodrigues10.github.io/Projeto-Busca-CEP-ReactJS/', '_blank');
 }
 
 function football(){
-    window.open('https://grodrigues10.github.io/futebol-react/', 'blank')
+    window.open('https://grodrigues10.github.io/futebol-react/', '_blank');
 }
 
 function carrinho(){
-    window.open('https://grodrigues10.github.io/Projeto-Carrinho-de-Compras/', 'blank');
+    window.open('https://grodrigues10.github.io/Projeto-Carrinho-de-Compras/', '_blank');
 }
 
 function clima(){
-    window.open('https://grodrigues10.github.io/Clima-App-ReactJS/', 'blank');
+    window.open('https://grodrigues10.github.io/Clima-App-ReactJS/', '_blank');
 }
 
 function cakeStore(){
-    window.open('https://grodrigues10.github.io/Projeto-Bootstrap/', 'blank')
+    window.open('https://grodrigues10.github.io/Projeto-Bootstrap/', '_blank');
 }
 
 
