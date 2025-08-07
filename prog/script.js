@@ -68,8 +68,8 @@ function football(){
     window.open('https://grodrigues10.github.io/futebol-react/', '_blank');
 }
 
-function carrinho(){
-    window.open('https://grodrigues10.github.io/Projeto-Carrinho-de-Compras/', '_blank');
+function produtime(){
+    window.open('https://grodrigues10.github.io/produtime-reactjs/', '_blank');
 }
 
 function clima(){
