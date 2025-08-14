@@ -72,7 +72,7 @@ function produtime(){
     window.open('https://grodrigues10.github.io/produtime-reactjs/', '_blank');
 }
 
-function astrolens(){
+function astroLens(){
     window.open('https://grodrigues10.github.io/AstroLens/', '_blank');
 }
 
