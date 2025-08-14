@@ -73,7 +73,7 @@ function produtime(){
 }
 
 function astrolens(){
-    window.open('https://grodrigues10.github.io//', '_blank');
+    window.open('https://grodrigues10.github.io/AstroLens/', '_blank');
 }
 
 function cakeStore(){
