@@ -72,8 +72,8 @@ function produtime(){
     window.open('https://grodrigues10.github.io/produtime-reactjs/', '_blank');
 }
 
-function clima(){
-    window.open('https://grodrigues10.github.io/Clima-App-ReactJS/', '_blank');
+function astrolens(){
+    window.open('https://grodrigues10.github.io//', '_blank');
 }
 
 function cakeStore(){
