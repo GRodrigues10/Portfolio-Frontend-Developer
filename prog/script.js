@@ -64,8 +64,8 @@ function viaCep(){
     window.open('https://grodrigues10.github.io/Projeto-Busca-CEP-ReactJS/', '_blank');
 }
 
-function football(){
-    window.open('https://grodrigues10.github.io/futebol-react/', '_blank');
+function cat(){
+    window.open('https://grodrigues10.github.io/Catify/', '_blank');
 }
 
 function produtime(){
