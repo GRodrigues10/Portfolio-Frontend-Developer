@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 function netflix() {
-    window.open('https://grodrigues10.github.io/Filmes-React-JS/', '_blank'); 
+    window.open('https://grodrigues10.github.io/Movies-ReactJS/', '_blank'); 
 }
 
 function viaCep(){
